@@ -1,0 +1,8 @@
+"minigames"
+{
+	"base"		"base"
+	"title"		"minigames"
+	"maps"		"^mg_"
+	"menusystem"	"1"
+	"workshopid"	""
+}
