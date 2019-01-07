@@ -14,9 +14,9 @@ include "mapvote/sh_mapvote.lua"
 include "mapvote/cl_mapvote.lua"*/
 
 include ("shared.lua")
+include "sh_cf.lua" 
 include ("modulesloader.lua")
 
-include "sh_cf.lua" 
 include "cl_hud.lua"
 
 include "sh_setupround.lua" 

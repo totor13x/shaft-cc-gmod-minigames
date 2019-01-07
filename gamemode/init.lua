@@ -4,13 +4,15 @@ include( "shared.lua" )
 AddCSLuaFile( "cl_init.lua" )
 AddCSLuaFile( "shared.lua" )
 
-include("modulesloader.lua")
-AddCSLuaFile("modulesloader.lua")
 
 -- // Configurating maps
 
-AddCSLuaFile( "sh_cf.lua" )
+AddCSLuaFile( "sh_cf.lua" ) --<----- here we're setting current game regime according to a map
 include ( "sh_cf.lua" )
+
+// Attaching certain gamemode's module's files
+include("modulesloader.lua")
+AddCSLuaFile("modulesloader.lua")
 
 -- // ROUND System
 /*

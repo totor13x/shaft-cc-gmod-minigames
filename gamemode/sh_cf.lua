@@ -3,7 +3,13 @@ OPTIONS.enable_bhop = false
 OPTIONS.isTwoTeam = false
 OPTIONS.colliderPlayer = false
 OPTIONS.disableFallDamage = false
+OPTIONS.regime = "standart"
 MAPS = {}
+
+MAPS["gm_construct"] = function()
+	OPTIONS.enable_bhop = true
+	OPTIONS.regime = "standart"
+end
 
 MAPS["mg_randomizer_v5"] = function()
 	OPTIONS.enable_bhop = true

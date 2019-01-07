@@ -31,7 +31,7 @@ end
 
 local defaultFlags = FCVAR_SERVER_CAN_EXECUTE + FCVAR_REPLICATED + FCVAR_NOTIFY + FCVAR_ARCHIVE + FCVAR_CLIENTCMD_CAN_EXECUTE
 
-
+/*
 hook.Add("StartCommand", "DeathrunDisableSpase", function( ply, mv, cmd )
 	if ply:Alive() then
 		if ROUND:GetCurrent() == ROUND_PREP then
@@ -45,7 +45,7 @@ hook.Add("StartCommand", "DeathrunDisableSpase", function( ply, mv, cmd )
 			end
 		end
 	end
-end)
+end)*/
 
 function GM:CreateTeams()
 
